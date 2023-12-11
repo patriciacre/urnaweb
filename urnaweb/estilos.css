@@ -1,0 +1,56 @@
+.lista {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.candidato {
+    max-width: 200px; 
+    margin: 10px;
+    text-align: center;
+}
+
+.centralizaBlue {
+    text-align: center;
+    color: blue;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+.link_sombra {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    min-width: 5px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-container {
+    text-align: center; /* Alinha os botões no centro */
+}
+
+.button-container button {
+    display: inline-block;
+    margin: 5px; /* Espaçamento entre os botões */
+}
+
+#resultado {
+    margin-top: 20px;
+}
